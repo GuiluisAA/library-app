@@ -23,7 +23,7 @@ module.exports = function(environment) {
       // when it is created
     }
   };
-
+  //Comentar e descomentar caso queira ver o que acontece por debaixo dos panos (under the hook)
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
