@@ -8,5 +8,6 @@ export default Ember.Component.extend({
 		buttonClicked(param) {
 			this.sendAction('action', param);
 		}
+
 	}
 });
