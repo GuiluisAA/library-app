@@ -4,7 +4,7 @@ module.exports = function(app) {
 
   tokenRouter.post('/token', function(req, res) {
     if (req.body.grant_type === 'password') {
-      if (req.body.username === 'guiluis' && req.body.password === 'mari') {
+      if (req.body.username === 'matt' && req.body.password === 'isanalu') {
         res.status(200).send('{ "access_token": "secret token!", "account_id": 1 }');
       } else {
         res.status(400).send('{ "error": "invalid_grant" }');
